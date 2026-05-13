@@ -1,0 +1,21 @@
+[build]
+  command = ""
+  publish = "."
+  functions = "netlify/functions"
+
+[dev]
+  command = "node server.js"
+  port = 3000
+  targetPort = 3000
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"

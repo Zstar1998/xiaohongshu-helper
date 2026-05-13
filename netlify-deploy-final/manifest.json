@@ -1,0 +1,89 @@
+{
+  "name": "小红书营销助手 Pro",
+  "short_name": "营销助手",
+  "description": "AI文案生成 + 智能配图，专为小红书/朋友圈/视频号设计",
+  "start_url": "/xiaohongshu-pro-final.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff7f5",
+  "theme_color": "#ff2442",
+  "scope": "/",
+  "lang": "zh-CN",
+  "categories": ["productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./screenshots/screenshot.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "小红书营销助手主界面"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "✨ 生成文案",
+      "short_name": "生成文案",
+      "description": "快速生成小红书爆款文案",
+      "url": "/xiaohongshu-pro-final.html?panel=copy",
+      "icons": [{ "src": "./icons/icon-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "🎨 AI绘图",
+      "short_name": "AI绘图",
+      "description": "生成精美配图",
+      "url": "/xiaohongshu-pro-final.html?panel=image",
+      "icons": [{ "src": "./icons/icon-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
